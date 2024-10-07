@@ -1,0 +1,15 @@
+live_config_reload = true
+
+
+[window]
+opacity = 0.9
+
+
+[font]
+
+normal.family = "Hack"
+
+size = 11.0
+
+
+

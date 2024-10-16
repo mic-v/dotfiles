@@ -20,6 +20,7 @@ return {
                                 "c",
                                 "javascript",
                                 "typescript",
+                                "python",
                         },
                 })
                 

@@ -28,35 +28,34 @@ return {
 
                 local cmp_nvim_lsp = require("cmp_nvim_lsp")
                 --enable auto-cmp
-                local capabilities = cmp_nvim_lsp.default_capabilities() 
-                
+                local capabilities = cmp_nvim_lsp.default_capabilities()
                 lspconfig["html"].setup({
-                        capablities = capabilities,
+                        capabilities = capabilities,
                         on_attach = on_attach,
                 })
                                 
                 lspconfig["cssls"].setup({
-                        capablities = capabilities,
+                        capabilities = capabilities,
                         on_attach = on_attach,
                 })
 	
 		lspconfig["pyright"].setup({
-                        capablities = capabilities,
+                        capabilities = capabilities,
                         on_attach = on_attach,
                 })
 				
 		lspconfig["clangd"].setup({
-                        capablities = capabilities,
+                        capabilities = capabilities,
                         on_attach = on_attach,
                 })
 		
 		lspconfig["tailwindcss"].setup({
-                        capablities = capabilities,
+                        capabilities = capabilities,
                         on_attach = on_attach,
                 })
 		
 		lspconfig["ts_ls"].setup({
-                        capablities = capabilities,
+                        capabilities = capabilities,
                        on_attach = on_attach,
                 })
                 lspconfig["lua_ls"].setup({

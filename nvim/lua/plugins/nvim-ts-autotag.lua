@@ -10,7 +10,6 @@ return {
                 --auto close on trailing </
                 enable_close_on_slash = false,
             },
-
             per_filetype = {
             }
         })

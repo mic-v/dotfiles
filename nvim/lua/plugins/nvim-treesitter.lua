@@ -10,7 +10,7 @@ return {
                                 additional_vim_regex_highlighting = false,
                         },
                         autotag = {
-                                enable = true,
+                                enable = false,
                         },
                         ensure_installed = {
                                 "html",

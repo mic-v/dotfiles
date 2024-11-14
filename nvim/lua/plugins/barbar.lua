@@ -4,6 +4,7 @@ return {
         'lewis6991/gitsigns.nvim',
         'nvim-tree/nvim-web-devicons',
     },
+<<<<<<< HEAD
     opts = {
         animation = true,
     },
@@ -16,4 +17,10 @@ return {
         -- Close buffer
         map('n', '<A-c>', '<Cmd>BufferClose<CR>', opts)
     end,
+=======
+    init = function () vim.g.barbar_auto_setup = false end,
+    opts = {
+    },
+    -- version = '^1.0.0', --optional
+>>>>>>> f45029e03f881f41afcc2d05d689dbd182572d2a
 }

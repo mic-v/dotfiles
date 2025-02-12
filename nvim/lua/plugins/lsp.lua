@@ -19,6 +19,7 @@ return {
                                 "tailwindcss",
                                 "ts_ls",
                                 "lua_ls",
+                                "cmake",
 
                         },
                         -- auto installs configured servers(with lsp config)
@@ -59,6 +60,11 @@ return {
                        on_attach = on_attach,
                 })
                 lspconfig["lua_ls"].setup({
+                        capabilities = capabilities,
+                        on_attach = on_attach,
+                })
+
+                lspconfig["cmake"].setup({
                         capabilities = capabilities,
                         on_attach = on_attach,
                 })

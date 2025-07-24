@@ -20,7 +20,7 @@ return {
                                 "ts_ls",
                                 "lua_ls",
                                 "cmake",
-
+                                "rust_analyzer",
                         },
                         -- auto installs configured servers(with lsp config)
                         automatic_installation = true,
@@ -65,6 +65,11 @@ return {
                 })
 
                 lspconfig["cmake"].setup({
+                        capabilities = capabilities,
+                        on_attach = on_attach,
+                })
+
+                lspconfig["rust_analyzer"].setup({
                         capabilities = capabilities,
                         on_attach = on_attach,
                 })
